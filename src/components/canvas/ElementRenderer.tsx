@@ -153,6 +153,7 @@ export const ElementRenderer: React.FC<{ element: BuilderElement }> = ({
         left: element.position.x,
         top: element.position.y,
         boxSizing: "border-box",
+        overflow: "hidden",
         width:
           typeof element.position.width === "number"
             ? element.position.width

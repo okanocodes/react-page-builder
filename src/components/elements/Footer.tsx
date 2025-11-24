@@ -7,7 +7,7 @@ export default function Footer({ element }: { element: BuilderElement }) {
     <footer
       style={{
         width: "100%",
-        height: element.position.height,
+        height: "100%",
         background: "#e0e0e0",
         display: "flex",
         alignItems: "center",
