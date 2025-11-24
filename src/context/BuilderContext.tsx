@@ -47,6 +47,7 @@ export const BuilderProvider: React.FC<{ children: React.ReactNode }> = ({
   const nextCardNumber = useCallback(() => {
     let next = 0;
     setCardCounter((prev) => {
+      cardCounter + 1;
       next = prev + 1;
       return next;
     });

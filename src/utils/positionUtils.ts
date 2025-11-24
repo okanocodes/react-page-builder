@@ -50,7 +50,6 @@ export function findNonOverlappingPosition(
   let curX = Math.max(0, Math.min(desired.x, maxX));
   let curY = Math.max(0, Math.min(desired.y, maxY));
   const origX = curX;
-  const origY = curY;
 
   while (attempt < maxAttempts) {
     const a = { x: curX, y: curY, w: desired.w, h: desired.h };
